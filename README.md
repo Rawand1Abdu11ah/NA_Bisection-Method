@@ -28,17 +28,17 @@ To use this project, you need to clone the repository and install any dependenci
   
 
    ## Example
-# Define the function to be solved
+* Define the function to be solved
 def f(x):
     return x**2 - 2
 
-# Set the initial parameters
+* Set the initial parameters
 a = 0
 b = 2
 epsilon = 1e-6
 max_iter = 100
 
-# Call the bisection method function
+* Call the bisection method function
 root = bisection_method(f, a, b, epsilon, max_iter)
 
 print("The root of the equation is:", root)
